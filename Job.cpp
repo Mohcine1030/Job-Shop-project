@@ -125,6 +125,10 @@ void set_jobNbr(int i){
     jobNbr = i;
 }
 
+int get_jobNbr(){
+    return jobNbr;
+}
+
 void set_done(){
     done = true;
 }

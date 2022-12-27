@@ -13,11 +13,11 @@ public:
 Task(int j, int tn){
     jobNbr = j;
     taskNbr = tn;
-    cout << "Enter time execution of the task : " << endl;
+    cout << "Enter time execution of the task" << taskNbr << " : " << endl;
     cin >> timeNeed;
-    cout << "Enter priority of the task : " << endl;
+    cout << "Enter priority of the task" << taskNbr << " : " << endl;
     cin >> priority;
-    cout << "Enter arrival time of the task : " << endl;
+    cout << "Enter arrival time of the task" << taskNbr << " : " << endl;
     cin >> arrivalTime;
 }
 

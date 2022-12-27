@@ -1,51 +1,101 @@
-86
-38
-137
-59
-203
-65
-188
-24
-211
-94
-0 0 0
-0 6 3
-1 0 16
-0 4 21
-0 5 22
-0 7 24
-0 9 22
-2 0 34
-0 1 38
-3 0 46
-4 0 51
-5 0 56
-6 0 58
-0 3 59
-1 5 68
-1 6 70
-2 6 74
-1 9 89
-2 9 94
-3 9 90
-0 8 97
-1 8 103
-2 8 100
-4 9 107
-5 9 122
-7 0 119
-8 0 132
-0 2 131
-1 2 137
-2 2 135
-3 2 145
-4 2 158
-5 2 164
-6 2 171
-7 2 171
-8 2 183
-9 2 191
-1 4 204
-3 6 208
-4 6 213
-3 8 214
+Waited time of job0 is : 463
+Waited time of job1 is : 482
+Waited time of job2 is : 4
+Waited time of job3 is : 381
+Waited time of job4 is : 99
+Waited time of job5 is : 317
+Waited time of job6 is : 406
+Waited time of job7 is : 146
+Waited time of job8 is : 466
+Waited time of job9 is : 148
+Waited time of job10 is : 245
+Waited time of job11 is : 531
+Waited time of job12 is : 554
+Waited time of job13 is : 434
+Waited time of job14 is : 299
+Waited time of job15 is : 178
+Waited time of job16 is : 554
+Waited time of job17 is : 616
+Waited time of job18 is : 620
+Waited time of job19 is : 689
+**************************************
+Average Time waited per Job : 381.6 [Time Units]
+**************************************
+Task0 of job15 has waited : 0
+Task1 of job15 has waited : 8
+Task0 of job2 has waited : 4
+Task0 of job0 has waited : 5
+Task0 of job9 has waited : 21
+Task0 of job3 has waited : 58
+Task1 of job3 has waited : 54
+Task0 of job4 has waited : 62
+Task0 of job13 has waited : 68
+Task0 of job16 has waited : 52
+Task0 of job18 has waited : 89
+Task1 of job4 has waited : 78
+Task0 of job5 has waited : 112
+Task0 of job7 has waited : 146
+Task1 of job9 has waited : 132
+Task2 of job9 has waited : 167
+Task3 of job9 has waited : 183
+Task1 of job18 has waited : 156
+Task1 of job0 has waited : 185
+Task2 of job15 has waited : 194
+Task0 of job14 has waited : 184
+Task0 of job1 has waited : 204
+Task1 of job1 has waited : 195
+Task2 of job1 has waited : 204
+Task2 of job3 has waited : 225
+Task3 of job3 has waited : 252
+Task1 of job5 has waited : 232
+Task2 of job5 has waited : 256
+Task3 of job5 has waited : 241
+Task0 of job10 has waited : 245
+Task1 of job14 has waited : 253
+Task2 of job14 has waited : 263
+Task3 of job14 has waited : 283
+Task2 of job0 has waited : 306
+Task4 of job5 has waited : 336
+Task4 of job14 has waited : 367
+Task2 of job18 has waited : 368
+Task3 of job18 has waited : 376
+Task4 of job3 has waited : 381
+Task0 of job6 has waited : 406
+Task1 of job6 has waited : 377
+Task2 of job6 has waited : 425
+Task3 of job6 has waited : 402
+Task1 of job13 has waited : 432
+Task2 of job13 has waited : 420
+Task3 of job0 has waited : 462
+Task4 of job0 has waited : 449
+Task0 of job8 has waited : 458
+Task1 of job8 has waited : 481
+Task2 of job8 has waited : 475
+Task3 of job8 has waited : 493
+Task5 of job0 has waited : 512
+Task3 of job1 has waited : 494
+Task0 of job11 has waited : 531
+Task1 of job11 has waited : 535
+Task2 of job11 has waited : 528
+Task3 of job11 has waited : 547
+Task0 of job12 has waited : 554
+Task1 of job16 has waited : 542
+Task2 of job16 has waited : 568
+Task3 of job16 has waited : 572
+Task4 of job16 has waited : 602
+Task0 of job17 has waited : 598
+Task1 of job17 has waited : 615
+Task2 of job17 has waited : 612
+Task3 of job17 has waited : 623
+Task4 of job17 has waited : 652
+Task4 of job18 has waited : 630
+Task5 of job18 has waited : 660
+Task0 of job19 has waited : 687
+Task1 of job19 has waited : 707
+Task2 of job19 has waited : 722
+Task3 of job19 has waited : 712
+Task4 of job19 has waited : 727
+Task5 of job19 has waited : 755
+**************************************
+Average Time waited per Task : 358.8 [Time Units]
+**************************************

@@ -54,24 +54,31 @@ void resolv(vector<Job*> dataJob, int Algo){
     cout << "Here are the results for the given scheduling algorithm : " << Algo << endl;
     for (int i=0; i < dataJob.size(); i++){
             dataJob[i]->showResult();
-            myfile << dataJob[i]->get_waitedTime() << endl;
+            myfile <<"Waited time of job"<< dataJob[i]->get_jobNbr() << " is : " << dataJob[i]->get_waitedTime() << endl;
             AverageTime = AverageTime + dataJob[i]->get_waitedTime();
         }
 
     AverageTime = AverageTime / jobnumbers;
     cout << "Average Time waited per Job : " << AverageTime << " [Time Units]" << endl;
+    myfile << "**************************************" << endl;
+    myfile << "Average Time waited per Job : " << AverageTime << " [Time Units]" << endl;
+    myfile << "**************************************" << endl;
     
     for (int i=0; i < TaskInOrder.size(); i++){
         int waited = TaskInOrder[i].get_servedTime() - TaskInOrder[i].get_arrivalTime();
-        myfile << TaskInOrder[i].get_taskNbr() << " " << TaskInOrder[i].get_job() << " " << waited << endl;
+        myfile << "Task" << TaskInOrder[i].get_taskNbr() << " of job" << TaskInOrder[i].get_job() << " has waited : " << waited << endl;
         AverageTaskTime = AverageTaskTime + waited; 
-        cout << "Task number " << TaskInOrder[i].get_taskNbr() << " of Job " << TaskInOrder[i].get_job();
+        cout << "Task" << TaskInOrder[i].get_taskNbr() << " of Job" << TaskInOrder[i].get_job();
         cout << " has waited " << waited << endl;
     }
 
     float TaskNumber = TaskInOrder.size();
     AverageTaskTime = AverageTaskTime / TaskNumber;
     cout << "Average Time waited per Task : " << AverageTaskTime << " [Time Units]" << endl;
+    myfile << "**************************************" << endl;
+    myfile << "Average Time waited per Task : " << AverageTaskTime << " [Time Units]" << endl;
+    myfile << "**************************************" << endl;
+
     myfile.close();
 
 
